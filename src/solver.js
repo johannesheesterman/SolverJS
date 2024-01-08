@@ -43,6 +43,8 @@ export class Solver{
                 let result = this.backtrack();
                 if(result){
                     return true;
+                } else {
+                  return false;
                 }
             }           
         }
